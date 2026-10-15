@@ -13,6 +13,9 @@ first disproofs at T = 200 / 1000 gave ±1.2 / ±1.1). Three of the four explici
 published by HKMS do not hold; certified replacements are provided. See [certificates/README.md](certificates/README.md)
 and [docs/03_findings_log.md](docs/03_findings_log.md). Next: larger T / LLL for stronger bounds, write-up.
 
+**Archived record.** Paper, code, zero data and certificates: Zenodo, [doi:10.5281/zenodo.23403118](https://doi.org/10.5281/zenodo.23403118).
+Repository: <https://github.com/MadhavGuar14/nf-mertens-quadratic>
+
 ## Layout
 
 | Path | Contents |
@@ -48,3 +51,5 @@ python src/exploration/groundtruth.py data/zeros/quadratic_T1000.json 1e6
 python src/exploration/hiprec_check.py "Q(sqrt-3):200:1560.511:-1" "Q(sqrt5):1000:1016.248:1"
 python src/certify/<step>.py ...                    # see docs/04_certification_plan.md
 ```
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23403118.svg)](https://doi.org/10.5281/zenodo.23403118)

@@ -6,4 +6,7 @@ authors:
     given-names: Madhav
 date-released: 2026-10-12
 license: MIT
-repository-code: "https://github.com/<your-username>/<repo-name>"
+doi: 10.5281/zenodo.23403118
+repository-code: "https://github.com/MadhavGaur14/nf-mertens-quadratic"
+
+
