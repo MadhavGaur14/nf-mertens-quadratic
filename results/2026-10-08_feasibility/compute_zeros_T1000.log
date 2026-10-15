@@ -1,0 +1,29 @@
+zeta: 649 zeros below 1000.0 (2s)
+Q(i)       chi=(4,3) L(1/2)=0.66769146  L-zeros:868  min|gamma_zeta-gamma_L|=0.000521  min|deriv|=0.7  (68s)
+     T=  250.0: found   162 sign changes, theta(T)/pi =    162.06, diff -0.06
+     T=  500.0: found   379 sign changes, theta(T)/pi =    379.15, diff -0.15
+     T=  750.0: found   617 sign changes, theta(T)/pi =    617.07, diff -0.07
+     T= 1000.0: found   868 sign changes, theta(T)/pi =    868.50, diff -0.50
+Q(sqrt2)   chi=(8,5) L(1/2)=0.37369171  L-zeros:979  min|gamma_zeta-gamma_L|=0.000163  min|deriv|=0.793  (119s)
+     T=  250.0: found   189 sign changes, theta(T)/pi =    189.39, diff -0.39
+     T=  500.0: found   434 sign changes, theta(T)/pi =    434.06, diff -0.06
+     T=  750.0: found   700 sign changes, theta(T)/pi =    699.56, diff +0.44
+     T= 1000.0: found   979 sign changes, theta(T)/pi =    978.57, diff +0.43
+Q(sqrt3)   chi=(12,11) L(1/2)=0.49855700  L-zeros:1043  min|gamma_zeta-gamma_L|=0.000613  min|deriv|=0.793  (113s)
+     T=  250.0: found   206 sign changes, theta(T)/pi =    205.52, diff +0.48
+     T=  500.0: found   466 sign changes, theta(T)/pi =    466.33, diff -0.33
+     T=  750.0: found   748 sign changes, theta(T)/pi =    747.96, diff +0.04
+     T= 1000.0: found  1043 sign changes, theta(T)/pi =   1043.10, diff -0.10
+Q(sqrt-3)  chi=(3,2) L(1/2)=0.48086756  L-zeros:823  min|gamma_zeta-gamma_L|=0.00384  min|deriv|=0.497  (49s)
+     T=  250.0: found   150 sign changes, theta(T)/pi =    150.61, diff -0.61
+     T=  500.0: found   356 sign changes, theta(T)/pi =    356.26, diff -0.26
+     T=  750.0: found   583 sign changes, theta(T)/pi =    582.73, diff +0.27
+     T= 1000.0: found   823 sign changes, theta(T)/pi =    822.72, diff +0.28
+Q(sqrt5)   chi=(5,4) L(1/2)=0.23175095  L-zeros:904  min|gamma_zeta-gamma_L|=0.000687  min|deriv|=0.793  (106s)
+     T=  250.0: found   170 sign changes, theta(T)/pi =    170.69, diff -0.69
+     T=  500.0: found   397 sign changes, theta(T)/pi =    396.66, diff +0.34
+     T=  750.0: found   644 sign changes, theta(T)/pi =    643.45, diff +0.55
+     T= 1000.0: found   904 sign changes, theta(T)/pi =    903.77, diff +0.23
+done in 459s
+
+[exited with code 0]

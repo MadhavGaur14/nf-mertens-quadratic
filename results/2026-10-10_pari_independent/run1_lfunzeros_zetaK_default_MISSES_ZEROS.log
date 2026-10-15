@@ -1,0 +1,20 @@
+﻿gp.exe :   ***   Warning: new maximum stack size = 2147483648 (2048.000 Mbytes).
+ 
+   realprecision = 77 significant digits (60 digits displayed)
+Q(sqrt-3) T=200: lfunzeros finds 185 zeros of zeta_K in (0,T)
+   h*(1560.51100774) = -0.589590518016227
+   h*(18558.8477306) = 0.520969612368569
+   h*(1560.6) = -0.026406339098841
+Q(i) T=600: lfunzeros finds 800 zeros of zeta_K in (0,T)
+   h*(72.85) = -0.968062726738292
+   h*(-85.15) = 1.070093029532372
+   h*(158.854) = 0.749026888898885
+   h*(160.454) = -0.748681277222349
+Q(sqrt2) T=150: lfunzeros finds 152 zeros of zeta_K in (0,T)
+   h*(-24.64) = -0.792409846036420
+   h*(2607.183) = 1.275380806162747
+   h*(195.906) = -1.279188504976970
+Q(sqrt3) T=200: lfunzeros finds 233 zeros of zeta_K in (0,T)
+   h*(17.32) = -0.299530841909710
+   h*(631.336) = 1.159086969473867
+   h*(1746.876) = -1.164320844706673

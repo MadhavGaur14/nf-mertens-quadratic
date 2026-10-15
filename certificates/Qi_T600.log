@@ -1,0 +1,8 @@
+== Certificate for the naive Mertens-type conjecture over Q(i); chi = dirichlet_char(4, 3); T = 600
+[1] N_L(T) = 473  ({'N_ball': '[473.000000000000 +/- 3e-17]', 'horizontal_pieces': 100, 'real_axis_pieces': 'L(s,chi_-4) > 0 for s > 0: pairs (4k+1)^-s - (4k+3)^-s > 0', 'prec': 128});  N_zeta(T) = 341  ({'N_ball': '[341.000000000000 +/- 3e-17]', 'horizontal_pieces': 21, 'real_axis_pieces': 'classical (zeta(sigma) < 0 on (0,1))', 'prec': 128})  [0s]
+[2] isolated 341 zeta zeros and 473 L zeros in disjoint intervals of radius 1e-28 inside (0,T); counts equal N(T) => all zeros below T are on the line and simple; zeta zeros match acb.zeta_zeros  [2s]
+[3] h*_(K,T)(158.854) in [1.5721473341883925527 +/- 1.66e-20]   -> CERTIFIED > 1
+[3] h*_(K,T)(160.454) in [-1.5545764659142259682 +/- 2.20e-20]   -> CERTIFIED < -1
+[3] h*_(K,T)(-85.15) in [1.2002157923194032088 +/- 4.63e-20]   -> CERTIFIED > 1
+[3] h*_(K,T)(72.85) in [-0.93672311792431125095 +/- 2.68e-21]   -> NOT CERTIFIED
+done in 3s -> certificates/Qi_T600.json

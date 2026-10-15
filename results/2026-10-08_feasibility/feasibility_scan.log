@@ -1,0 +1,30 @@
+=== Positive controls (values claimed in Hu-Kaneko-Martin-Schildkraut, Section 3)
+  Q(i)      T= 600 t=  72.85: h* = -0.9367   (paper: <= -1.008)
+  Q(i)      T= 600 t= -85.15: h* =  1.2002   (paper: >= 1.029)
+  Q(sqrt2)  T= 150 t= -24.64: h* = -0.7979   (paper: > 1.049)
+  Q(sqrt3)  T= 200 t=  17.32: h* = -0.3004   (paper: > 1.027)
+
+=== Jump at t=0 (should straddle M*(1) ~ -0.485 and 1+M*(1) ~ 0.515 as T grows)
+  Q(sqrt-3) T=200: h(-0.02)=-0.361 h(+0.02)=+0.381  T=1000: h(-0.02)=-0.452 h(+0.02)=+0.473
+  Q(sqrt5)  T=200: h(-0.02)=-0.369 h(+0.02)=+0.387  T=1000: h(-0.02)=-0.460 h(+0.02)=+0.479
+
+=== Amplitude budget U(T) = sum_{|gamma|<T} f(|gamma|/T)/|rho zeta_K'(rho)|  (sup of |h*| over all t)
+  field             100     200     300     400     600     800    1000     #zeros<1000
+  Q(i)            1.078   2.520   3.579   4.234   5.047   5.698   6.246     1517
+  Q(sqrt2)        1.425   2.358   3.599   4.620   5.845   6.647   7.439     1628
+  Q(sqrt3)        1.376   2.008   2.436   2.798   3.663   4.622   5.438     1692
+  Q(sqrt-3)       1.091   1.850   2.322   2.687   3.311   3.801   4.178     1472
+  Q(sqrt5)        0.901   1.417   1.792   2.059   2.431   2.720   2.975     1553
+
+=== Direct scan of h*_{K,T}(t) for t in [-R, R]
+  Q(sqrt-3) T=  200 ( 193 zeros) R= 20000: max 1.2079 at t=18558.848;  min -1.2755 at t=1560.511   [81s]  <-- exceeds 1 !
+  Q(sqrt-3) T=  400 ( 473 zeros) R=  5000: max 1.4080 at t=4999.554;  min -1.4615 at t=1560.509   [151s]  <-- exceeds 1 !
+  Q(sqrt-3) T= 1000 (1472 zeros) R=  1000: max 1.6828 at t=477.692;  min -1.7700 at t=800.889   [274s]  <-- exceeds 1 !
+  Q(sqrt5)  T=  200 ( 208 zeros) R= 20000: max 0.8667 at t=-19260.076;  min -0.8355 at t=-14256.356   [131s]
+  Q(sqrt5)  T=  400 ( 505 zeros) R=  5000: max 1.0083 at t=1016.244;  min -1.0057 at t=722.739   [150s]  <-- exceeds 1 !
+  Q(sqrt5)  T= 1000 (1553 zeros) R=  1000: max 1.1292 at t=1016.248;  min -1.1106 at t=722.735   [240s]  <-- exceeds 1 !
+  Q(i)      T=  200 ( 201 zeros) R= 20000: max 1.7344 at t=-10973.651;  min -1.7282 at t=4008.208   [112s]  <-- exceeds 1 !
+  Q(i)      T=  400 ( 491 zeros) R=  5000: max 2.8079 at t=-2535.466;  min -2.7436 at t=2654.597   [184s]  <-- exceeds 1 !
+  Q(i)      T= 1000 (1517 zeros) R=  1000: max 3.2644 at t=687.042;  min -3.2624 at t=652.893   [226s]  <-- exceeds 1 !
+
+[exited with code 0]

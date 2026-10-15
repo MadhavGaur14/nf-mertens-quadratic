@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the accompanying paper."
+title: "The naive Mertens-type conjecture fails for Q(sqrt(-3)) and Q(sqrt(5)): code, zero data and certificates"
+authors:
+  - family-names: Gaur
+    given-names: Madhav
+date-released: 2026-10-12
+license: MIT
+repository-code: "https://github.com/<your-username>/<repo-name>"

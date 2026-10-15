@@ -1,0 +1,7 @@
+== Certificate for the naive Mertens-type conjecture over Q(sqrt2); chi = dirichlet_char(8, 5); T = 150
+[1] N_L(T) = 102  ({'N_ball': '[102.000000000000 +/- 3e-17]', 'horizontal_pieces': 32, 'real_axis_pieces': 'L(s,chi_8) > 0 for s > 0: blocks f(1)-f(3)-f(5)+f(7) > 0 by convexity of (8k+u)^-s', 'prec': 128});  N_zeta(T) = 52  ({'N_ball': '[52.0000000000000 +/- 3e-18]', 'horizontal_pieces': 77, 'real_axis_pieces': 'classical (zeta(sigma) < 0 on (0,1))', 'prec': 128})  [0s]
+[2] isolated 52 zeta zeros and 102 L zeros in disjoint intervals of radius 1e-28 inside (0,T); counts equal N(T) => all zeros below T are on the line and simple; zeta zeros match acb.zeta_zeros  [0s]
+[3] h*_(K,T)(2607.183) in [1.3041656417621241188 +/- 9.17e-21]   -> CERTIFIED > 1
+[3] h*_(K,T)(195.906) in [-1.2558300997363669812 +/- 1.24e-20]   -> CERTIFIED < -1
+[3] h*_(K,T)(-24.64) in [-0.79792323924516169480 +/- 1.20e-21]   -> NOT CERTIFIED
+done in 1s -> certificates/Qsqrt2_T150.json

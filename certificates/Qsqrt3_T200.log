@@ -1,0 +1,7 @@
+== Certificate for the naive Mertens-type conjecture over Q(sqrt3); chi = dirichlet_char(12, 11); T = 200
+[1] N_L(T) = 158  ({'N_ball': '[158.000000000000 +/- 3e-17]', 'horizontal_pieces': 67, 'real_axis_pieces': 'L(s,chi_12) > 0 for s > 0: blocks f(1)-f(5)-f(7)+f(11) > 0 by convexity of (12k+u)^-s', 'prec': 128});  N_zeta(T) = 79  ({'N_ball': '[79.0000000000000 +/- 3e-17]', 'horizontal_pieces': 8, 'real_axis_pieces': 'classical (zeta(sigma) < 0 on (0,1))', 'prec': 128})  [0s]
+[2] isolated 79 zeta zeros and 158 L zeros in disjoint intervals of radius 1e-28 inside (0,T); counts equal N(T) => all zeros below T are on the line and simple; zeta zeros match acb.zeta_zeros  [1s]
+[3] h*_(K,T)(631.336) in [1.1644345096143737232 +/- 4.08e-21]   -> CERTIFIED > 1
+[3] h*_(K,T)(1746.876) in [-1.1629622335885655250 +/- 1.84e-20]   -> CERTIFIED < -1
+[3] h*_(K,T)(17.32) in [-0.30038943431042941944 +/- 2.89e-21]   -> NOT CERTIFIED
+done in 1s -> certificates/Qsqrt3_T200.json

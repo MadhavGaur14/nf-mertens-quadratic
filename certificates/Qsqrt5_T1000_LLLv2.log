@@ -1,0 +1,6 @@
+== Certificate for the naive Mertens-type conjecture over Q(sqrt5); chi = dirichlet_char(5, 4); T = 1000
+[1] N_L(T) = 904  ({'N_ball': '[904.000000000000 +/- 3e-16]', 'horizontal_pieces': 151, 'real_axis_pieces': 'L(s,chi_5) > 0 for s > 0: blocks f(1)-f(2)-f(3)+f(4) > 0 by convexity of (5k+u)^-s', 'prec': 128});  N_zeta(T) = 649  ({'N_ball': '[649.000000000000 +/- 3e-16]', 'horizontal_pieces': 56, 'real_axis_pieces': 'classical (zeta(sigma) < 0 on (0,1))', 'prec': 128})  [2s]
+[2] isolated 649 zeta zeros and 904 L zeros in disjoint intervals of radius 1e-100 inside (0,T); counts equal N(T) => all zeros below T are on the line and simple; zeta zeros match acb.zeta_zeros  [23s]
+[3] h*_(K,T)(6701024002746072686211658750800192982264466383201014802804) in [1.7645366801985911697 +/- 1.31e-20]   -> CERTIFIED > 1
+[3] h*_(K,T)(-3826144185540628524340499373955955297176444083490968202937) in [-1.7550740602891268576 +/- 1.45e-20]   -> CERTIFIED < -1
+done in 40s -> certificates/Qsqrt5_T1000_LLLv2.json

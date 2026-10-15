@@ -1,0 +1,1 @@
+﻿All h* values in this folder are INVALID: lll_search.py parsed the zeros at mpmath's default 15-digit precision (fixed 2026-10-08). Certification of four of these 'witnesses' gave |h*| < 0.5. Kept only as a record.
